@@ -1,0 +1,1989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
+    <value>contextMenu</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
+  </metadata>
+  <data name="trayIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="trayIcon.Text" xml:space="preserve">
+    <value>Auction</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trayIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Name" xml:space="preserve">
+    <value>lotGrid</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Parent" xml:space="preserve">
+    <value>auctionTab</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="auctionTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="auctionTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="auctionTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 392</value>
+  </data>
+  <data name="auctionTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="auctionTab.Text" xml:space="preserve">
+    <value>Auction</value>
+  </data>
+  <data name="&gt;&gt;auctionTab.Name" xml:space="preserve">
+    <value>auctionTab</value>
+  </data>
+  <data name="&gt;&gt;auctionTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;auctionTab.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;auctionTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="houseBuiltDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 168</value>
+  </data>
+  <data name="houseBuiltDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="houseBuiltDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDatePicker.Name" xml:space="preserve">
+    <value>houseBuiltDatePicker</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDatePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDatePicker.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="houseExpirationTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="houseExpirationTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="houseExpirationTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="houseExpirationTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 255</value>
+  </data>
+  <data name="houseExpirationTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="houseExpirationTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="houseExpirationTimeLabel.Text" xml:space="preserve">
+    <value>Expiration time: </value>
+  </data>
+  <data name="&gt;&gt;houseExpirationTimeLabel.Name" xml:space="preserve">
+    <value>houseExpirationTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationTimeLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationTimeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="houseTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 255</value>
+  </data>
+  <data name="houseTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="houseTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;houseTimePicker.Name" xml:space="preserve">
+    <value>houseTimePicker</value>
+  </data>
+  <data name="&gt;&gt;houseTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseTimePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseTimePicker.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 290</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="telephoneExpirationTimeLabel.Text" xml:space="preserve">
+    <value>Expiration time: </value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationTimeLabel.Name" xml:space="preserve">
+    <value>telephoneExpirationTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationTimeLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationTimeLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="telephoneTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 290</value>
+  </data>
+  <data name="telephoneTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="telephoneTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;telephoneTimePicker.Name" xml:space="preserve">
+    <value>telephoneTimePicker</value>
+  </data>
+  <data name="&gt;&gt;telephoneTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneTimePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneTimePicker.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="carExpirationTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carExpirationTimeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carExpirationTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carExpirationTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 290</value>
+  </data>
+  <data name="carExpirationTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="carExpirationTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="carExpirationTimeLabel.Text" xml:space="preserve">
+    <value>Expiration time: </value>
+  </data>
+  <data name="&gt;&gt;carExpirationTimeLabel.Name" xml:space="preserve">
+    <value>carExpirationTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;carExpirationTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carExpirationTimeLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carExpirationTimeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="carTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 290</value>
+  </data>
+  <data name="carTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="carTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;carTimePicker.Name" xml:space="preserve">
+    <value>carTimePicker</value>
+  </data>
+  <data name="&gt;&gt;carTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carTimePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carTimePicker.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="houseConfirmButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 14.25pt</value>
+  </data>
+  <data name="houseConfirmButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="houseConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 322</value>
+  </data>
+  <data name="houseConfirmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 55</value>
+  </data>
+  <data name="houseConfirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="houseConfirmButton.Text" xml:space="preserve">
+    <value>Confirm House</value>
+  </data>
+  <data name="&gt;&gt;houseConfirmButton.Name" xml:space="preserve">
+    <value>houseConfirmButton</value>
+  </data>
+  <data name="&gt;&gt;houseConfirmButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseConfirmButton.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseConfirmButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="telephoneConfirmButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 14.25pt</value>
+  </data>
+  <data name="telephoneConfirmButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 322</value>
+  </data>
+  <data name="telephoneConfirmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 55</value>
+  </data>
+  <data name="telephoneConfirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="telephoneConfirmButton.Text" xml:space="preserve">
+    <value>Confirm Telephone</value>
+  </data>
+  <data name="&gt;&gt;telephoneConfirmButton.Name" xml:space="preserve">
+    <value>telephoneConfirmButton</value>
+  </data>
+  <data name="&gt;&gt;telephoneConfirmButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneConfirmButton.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneConfirmButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="carConfirmButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 14.25pt</value>
+  </data>
+  <data name="carConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 322</value>
+  </data>
+  <data name="carConfirmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 55</value>
+  </data>
+  <data name="carConfirmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="carConfirmButton.Text" xml:space="preserve">
+    <value>Confirm Car</value>
+  </data>
+  <data name="&gt;&gt;carConfirmButton.Name" xml:space="preserve">
+    <value>carConfirmButton</value>
+  </data>
+  <data name="&gt;&gt;carConfirmButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carConfirmButton.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carConfirmButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="houseExpirationDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="houseExpirationDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="houseExpirationDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="houseExpirationDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 213</value>
+  </data>
+  <data name="houseExpirationDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="houseExpirationDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="houseExpirationDateLabel.Text" xml:space="preserve">
+    <value>Expiration date: </value>
+  </data>
+  <data name="&gt;&gt;houseExpirationDateLabel.Name" xml:space="preserve">
+    <value>houseExpirationDateLabel</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationDateLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseExpirationDateLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="houseDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 214</value>
+  </data>
+  <data name="houseDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="houseDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;houseDateTimePicker.Name" xml:space="preserve">
+    <value>houseDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;houseDateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseDateTimePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseDateTimePicker.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 252</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="telephoneExpirationDateLabel.Text" xml:space="preserve">
+    <value>Expiration date: </value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationDateLabel.Name" xml:space="preserve">
+    <value>telephoneExpirationDateLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationDateLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneExpirationDateLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="telephoneDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 252</value>
+  </data>
+  <data name="telephoneDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="telephoneDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;telephoneDatePicker.Name" xml:space="preserve">
+    <value>telephoneDatePicker</value>
+  </data>
+  <data name="&gt;&gt;telephoneDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneDatePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneDatePicker.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="carExpirationDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carExpirationDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carExpirationDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carExpirationDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 252</value>
+  </data>
+  <data name="carExpirationDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="carExpirationDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="carExpirationDateLabel.Text" xml:space="preserve">
+    <value>Expiration date: </value>
+  </data>
+  <data name="&gt;&gt;carExpirationDateLabel.Name" xml:space="preserve">
+    <value>carExpirationDateLabel</value>
+  </data>
+  <data name="&gt;&gt;carExpirationDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carExpirationDateLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carExpirationDateLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="carDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 252</value>
+  </data>
+  <data name="carDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="carDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;carDatePicker.Name" xml:space="preserve">
+    <value>carDatePicker</value>
+  </data>
+  <data name="&gt;&gt;carDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carDatePicker.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carDatePicker.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="houseStyleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 120</value>
+  </data>
+  <data name="houseStyleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="houseStyleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;houseStyleTextBox.Name" xml:space="preserve">
+    <value>houseStyleTextBox</value>
+  </data>
+  <data name="&gt;&gt;houseStyleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseStyleTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseStyleTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="houseLocationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 72</value>
+  </data>
+  <data name="houseLocationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="houseLocationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;houseLocationTextBox.Name" xml:space="preserve">
+    <value>houseLocationTextBox</value>
+  </data>
+  <data name="&gt;&gt;houseLocationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseLocationTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseLocationTextBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="houseBuiltDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="houseBuiltDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="houseBuiltDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="houseBuiltDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 168</value>
+  </data>
+  <data name="houseBuiltDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="houseBuiltDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="houseBuiltDateLabel.Text" xml:space="preserve">
+    <value>Built Date: </value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDateLabel.Name" xml:space="preserve">
+    <value>houseBuiltDateLabel</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDateLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;houseBuiltDateLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="styleHouseLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="styleHouseLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="styleHouseLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="styleHouseLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 121</value>
+  </data>
+  <data name="styleHouseLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="styleHouseLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="styleHouseLabel.Text" xml:space="preserve">
+    <value>Style: </value>
+  </data>
+  <data name="&gt;&gt;styleHouseLabel.Name" xml:space="preserve">
+    <value>styleHouseLabel</value>
+  </data>
+  <data name="&gt;&gt;styleHouseLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;styleHouseLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;styleHouseLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="locationHouseLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="locationHouseLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="locationHouseLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="locationHouseLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 72</value>
+  </data>
+  <data name="locationHouseLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="locationHouseLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="locationHouseLabel.Text" xml:space="preserve">
+    <value>Location: </value>
+  </data>
+  <data name="&gt;&gt;locationHouseLabel.Name" xml:space="preserve">
+    <value>locationHouseLabel</value>
+  </data>
+  <data name="&gt;&gt;locationHouseLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;locationHouseLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;locationHouseLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="telephoneColorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 167</value>
+  </data>
+  <data name="telephoneColorTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="telephoneColorTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorTextBox.Name" xml:space="preserve">
+    <value>telephoneColorTextBox</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="telephoneModelTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 120</value>
+  </data>
+  <data name="telephoneModelTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="telephoneModelTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelTextBox.Name" xml:space="preserve">
+    <value>telephoneModelTextBox</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelTextBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="telephoneBatteryPowerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 212</value>
+  </data>
+  <data name="telephoneBatteryPowerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="telephoneBatteryPowerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerTextBox.Name" xml:space="preserve">
+    <value>telephoneBatteryPowerTextBox</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerTextBox.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="telephoneBrandTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 72</value>
+  </data>
+  <data name="telephoneBrandTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="telephoneBrandTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandTextBox.Name" xml:space="preserve">
+    <value>telephoneBrandTextBox</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandTextBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 213</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="telephoneBatteryPowerLabel.Text" xml:space="preserve">
+    <value>Battery: </value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerLabel.Name" xml:space="preserve">
+    <value>telephoneBatteryPowerLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneBatteryPowerLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="telephoneColorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneColorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneColorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneColorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 168</value>
+  </data>
+  <data name="telephoneColorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="telephoneColorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="telephoneColorLabel.Text" xml:space="preserve">
+    <value>Color: </value>
+  </data>
+  <data name="&gt;&gt;telephoneColorLabel.Name" xml:space="preserve">
+    <value>telephoneColorLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneColorLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="telephoneModelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneModelLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneModelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneModelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 121</value>
+  </data>
+  <data name="telephoneModelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="telephoneModelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="telephoneModelLabel.Text" xml:space="preserve">
+    <value>Model: </value>
+  </data>
+  <data name="&gt;&gt;telephoneModelLabel.Name" xml:space="preserve">
+    <value>telephoneModelLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneModelLabel.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="telephoneBrandLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telephoneBrandLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="telephoneBrandLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="telephoneBrandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 72</value>
+  </data>
+  <data name="telephoneBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="telephoneBrandLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="telephoneBrandLabel.Text" xml:space="preserve">
+    <value>Brand: </value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandLabel.Name" xml:space="preserve">
+    <value>telephoneBrandLabel</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;telephoneBrandLabel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="carColorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 167</value>
+  </data>
+  <data name="carColorTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="carColorTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;carColorTextBox.Name" xml:space="preserve">
+    <value>carColorTextBox</value>
+  </data>
+  <data name="&gt;&gt;carColorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carColorTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carColorTextBox.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="carModelTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 120</value>
+  </data>
+  <data name="carModelTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="carModelTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;carModelTextBox.Name" xml:space="preserve">
+    <value>carModelTextBox</value>
+  </data>
+  <data name="&gt;&gt;carModelTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carModelTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carModelTextBox.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="carTolalKmTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 212</value>
+  </data>
+  <data name="carTolalKmTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="carTolalKmTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;carTolalKmTextBox.Name" xml:space="preserve">
+    <value>carTolalKmTextBox</value>
+  </data>
+  <data name="&gt;&gt;carTolalKmTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carTolalKmTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carTolalKmTextBox.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="carBrandTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 72</value>
+  </data>
+  <data name="carBrandTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="carBrandTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;carBrandTextBox.Name" xml:space="preserve">
+    <value>carBrandTextBox</value>
+  </data>
+  <data name="&gt;&gt;carBrandTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carBrandTextBox.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carBrandTextBox.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="carTotalKmLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carTotalKmLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carTotalKmLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carTotalKmLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 213</value>
+  </data>
+  <data name="carTotalKmLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="carTotalKmLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="carTotalKmLabel.Text" xml:space="preserve">
+    <value>Total KM: </value>
+  </data>
+  <data name="&gt;&gt;carTotalKmLabel.Name" xml:space="preserve">
+    <value>carTotalKmLabel</value>
+  </data>
+  <data name="&gt;&gt;carTotalKmLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carTotalKmLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carTotalKmLabel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="carColorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carColorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carColorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carColorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 168</value>
+  </data>
+  <data name="carColorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="carColorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="carColorLabel.Text" xml:space="preserve">
+    <value>Color: </value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Name" xml:space="preserve">
+    <value>carColorLabel</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="carModelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carModelLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carModelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carModelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 121</value>
+  </data>
+  <data name="carModelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="carModelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="carModelLabel.Text" xml:space="preserve">
+    <value>Model: </value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Name" xml:space="preserve">
+    <value>carModelLabel</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="carBrandLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carBrandLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="carBrandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="carBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="carBrandLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="carBrandLabel.Text" xml:space="preserve">
+    <value>Brand: </value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Name" xml:space="preserve">
+    <value>carBrandLabel</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="createHouseTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createHouseTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="createHouseTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createHouseTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 28</value>
+  </data>
+  <data name="createHouseTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 25</value>
+  </data>
+  <data name="createHouseTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="createHouseTitle.Text" xml:space="preserve">
+    <value>Create house lot</value>
+  </data>
+  <data name="&gt;&gt;createHouseTitle.Name" xml:space="preserve">
+    <value>createHouseTitle</value>
+  </data>
+  <data name="&gt;&gt;createHouseTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createHouseTitle.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;createHouseTitle.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="createTelephoneTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createTelephoneTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="createTelephoneTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createTelephoneTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 28</value>
+  </data>
+  <data name="createTelephoneTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 25</value>
+  </data>
+  <data name="createTelephoneTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="createTelephoneTitle.Text" xml:space="preserve">
+    <value>Create telephone lot</value>
+  </data>
+  <data name="&gt;&gt;createTelephoneTitle.Name" xml:space="preserve">
+    <value>createTelephoneTitle</value>
+  </data>
+  <data name="&gt;&gt;createTelephoneTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createTelephoneTitle.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;createTelephoneTitle.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="createCarTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createCarTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="createCarTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 28</value>
+  </data>
+  <data name="createCarTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="createCarTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="createCarTitle.Text" xml:space="preserve">
+    <value>Create car lot</value>
+  </data>
+  <data name="&gt;&gt;createCarTitle.Name" xml:space="preserve">
+    <value>createCarTitle</value>
+  </data>
+  <data name="&gt;&gt;createCarTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createCarTitle.Parent" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;createCarTitle.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="createTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="createTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 392</value>
+  </data>
+  <data name="createTab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="createTab.Text" xml:space="preserve">
+    <value>Create Lot</value>
+  </data>
+  <data name="&gt;&gt;createTab.Name" xml:space="preserve">
+    <value>createTab</value>
+  </data>
+  <data name="&gt;&gt;createTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createTab.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;createTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Name" xml:space="preserve">
+    <value>disableBiddingCheckBox</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Parent" xml:space="preserve">
+    <value>settingsTab</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>settingsTab</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="settingsTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="settingsTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="settingsTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 392</value>
+  </data>
+  <data name="settingsTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="settingsTab.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;settingsTab.Name" xml:space="preserve">
+    <value>settingsTab</value>
+  </data>
+  <data name="&gt;&gt;settingsTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsTab.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;settingsTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 418</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lotGrid.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lotGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lotGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lotGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lotGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 386</value>
+  </data>
+  <data name="lotGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Name" xml:space="preserve">
+    <value>lotGrid</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.Parent" xml:space="preserve">
+    <value>auctionTab</value>
+  </data>
+  <data name="&gt;&gt;lotGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="disableBiddingCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableBiddingCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 38</value>
+  </data>
+  <data name="disableBiddingCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="disableBiddingCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Name" xml:space="preserve">
+    <value>disableBiddingCheckBox</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.Parent" xml:space="preserve">
+    <value>settingsTab</value>
+  </data>
+  <data name="&gt;&gt;disableBiddingCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 38</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Disable bidding</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>settingsTab</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="bidderBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>403, 17</value>
+  </metadata>
+  <data name="User.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 22</value>
+  </data>
+  <data name="User.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="User.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;User.Name" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;User.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;User.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;User.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="bidderBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>403, 17</value>
+  </metadata>
+  <metadata name="auctionDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
+  <metadata name="auctionDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
+  <metadata name="bidderTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>568, 17</value>
+  </metadata>
+  <data name="labelBidder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBidder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 25</value>
+  </data>
+  <data name="labelBidder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="labelBidder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelBidder.Text" xml:space="preserve">
+    <value>Current bidder</value>
+  </data>
+  <data name="&gt;&gt;labelBidder.Name" xml:space="preserve">
+    <value>labelBidder</value>
+  </data>
+  <data name="&gt;&gt;labelBidder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBidder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelBidder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonRefresh.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC5klEQVRYR2MYBaOAEsDEysHByMrODuXS
+        HrAKiItL+ZeWajXt32+y6P17i7X//4OwycJ37zQb9u6V9CsqYuUXE4Mqpx5gYuPgkI1uazNb/u0bzFJc
+        GKRGNqqlBRQ6UO2UA8XUqVORLTGe9+KFWsnq1fLxPT3y8b29aqVr1xrPf/UKWY1uz7lzbMIyMlAjKANy
+        Me3tIEMNJt+8KWQRFMTIxMwMlYIDRiYWFiHLkBCDKbdvwxxhMPXOHVC0QZVQABiZmLiVjIyYiEhwTOzc
+        3KrA0IE5Qqtx/36Qfqg08YBDSk0NyiQZgEJIo3rrVpgjRJ0SE6FSxAF2cSUl08UfPvCoWVhAhUgGrHyi
+        oiYL376DRQXxoQBUCMpmII36E69doyQ1y4Q3NMBCgVfTxgYqjB9IeObkwDSBsFxsZydUimTAIaWuDjNH
+        JqyuDiqMG3CAgn7ply/IDjBf/ecPJVEBK7BUC5cthwrhBpI+BQXgPD3v5UuQJtMlnz6B+KCCBaqEaCBg
+        5OkJyrLGc54/B5ml233uHIjPp21vD1WCG6hXbNwI0mQ06/FjqBDJQNK3qAhkBjoWsggOhirBDRSSJ00C
+        a1jz9y8zt4AAVJgkAEzLzNqtR44gW65atGIFVBo/ELaJjIRpErGLjoYKkwxAZQms/gBFKwufiAhUCj9g
+        5uLnN1v29StIo273mbNklWRQIOlbWAgyB1RMQ4WIA/BoAGJJn8JCqDDJAOh2JmA1XQzlEg9AwQWr4cxX
+        /f5Nsg+oAQQM3N1BloMdsfrvX7mYjg4mDm5uqDQGAMnJRrW2gkpQAWNvb6gwZUDYJiLCfOXPn7DoMFnw
+        +jUoeoTMg4K4FQ0NQVjILCBAIWnCRJP5r1/D1KkWrVwJNYJywKNmaQlqC8AMJ4QNpty6xaVgYADVTh3A
+        yMLGJu6Wng5q6WCzFIT1ei9eFHfPzKR5Q5VNUFISFMdiLikpYi6pqYImvr5swrKyUOlRMAqGEmBgAABb
+        8acqEfdroAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>746, 12</value>
+  </data>
+  <data name="buttonRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="buttonRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Name" xml:space="preserve">
+    <value>buttonRefresh</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="countdownTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>725, 17</value>
+  </metadata>
+  <metadata name="dataBaseTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>870, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Auction</value>
+  </data>
+  <data name="&gt;&gt;exit.Name" xml:space="preserve">
+    <value>exit</value>
+  </data>
+  <data name="&gt;&gt;exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
+    <value>trayIcon</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bidderBindingSource.Name" xml:space="preserve">
+    <value>bidderBindingSource</value>
+  </data>
+  <data name="&gt;&gt;bidderBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;auctionDataSet.Name" xml:space="preserve">
+    <value>auctionDataSet</value>
+  </data>
+  <data name="&gt;&gt;auctionDataSet.Type" xml:space="preserve">
+    <value>AuctionProgram.AuctionDataSet, AuctionDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bidderTableAdapter.Name" xml:space="preserve">
+    <value>bidderTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;bidderTableAdapter.Type" xml:space="preserve">
+    <value>AuctionProgram.AuctionDataSetTableAdapters.BidderTableAdapter, AuctionDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;countdownTimer.Name" xml:space="preserve">
+    <value>countdownTimer</value>
+  </data>
+  <data name="&gt;&gt;countdownTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataBaseTimer.Name" xml:space="preserve">
+    <value>dataBaseTimer</value>
+  </data>
+  <data name="&gt;&gt;dataBaseTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

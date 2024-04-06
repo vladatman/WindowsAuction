@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AuctionProgram.Classes.Auction" Collapsed="true">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAEAAAAIAAABAQ=</HashCode>
+      <FileName>Classes\Auction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Bidder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAAAAAgAAAAAEAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>Classes\Bidder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AuctionProgram.Classes.DataBase" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAgAAAAIAgABAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Lots.CarLot" Collapsed="true">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAgAAAAAAgAAAgAAAAAACACAAAAAAAAIEgA=</HashCode>
+      <FileName>Classes\Lots\CarLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Lots.HouseLot" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAgAAAgACAAAECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lots\HouseLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Lots.Lot" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lots\Lot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Lots.TelephoneLot" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAgAAAgAAAAAACACAAAAAgAAIAAA=</HashCode>
+      <FileName>Classes\Lots\TelephoneLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Products.Car" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACWAAAAACgAIARAgAAAAIAQAhCAAAACAIAAAUAAYEAg=</HashCode>
+      <FileName>Classes\Products\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Products.House" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKSAAAAAAgAIABAAAAAAIAQCACAEAACAAAAAUAAQAAA=</HashCode>
+      <FileName>Classes\Products\House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Products.Product" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAgAAAAAAAAQAAAAACAAAAAAAAAAQIgA=</HashCode>
+      <FileName>Classes\Products\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.Classes.Products.Telephone" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACWAAAAAAgAIABAAAAAAIAQAACAAAACAAAAA0AAYAAA=</HashCode>
+      <FileName>Classes\Products\Telephone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.States.DisableState" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>States\DisableState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.States.WorkState" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>States\WorkState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuctionProgram.States.State" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>States\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AuctionProgram.Classes.IObserver" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

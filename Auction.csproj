@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{388183B7-3890-4232-B510-CAE2348C5553}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Auction</RootNamespace>
+    <RootNamespace>AuctionProgram</RootNamespace>
     <AssemblyName>Auction</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -46,23 +46,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AuctionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuctionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BidForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BidForm.Designer.cs">
+      <DependentUpon>BidForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Auction.cs" />
+    <Compile Include="Classes\Bidder.cs" />
+    <Compile Include="Classes\DataBase.cs" />
+    <Compile Include="Classes\IObserver.cs" />
+    <Compile Include="Classes\Lots\CarLot.cs" />
+    <Compile Include="Classes\Lots\HouseLot.cs" />
+    <Compile Include="Classes\Lots\Lot.cs" />
+    <Compile Include="Classes\Lots\TelephoneLot.cs" />
+    <Compile Include="Classes\Products\Car.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Products\House.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Products\Product.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Products\Telephone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailForm.Designer.cs">
+      <DependentUpon>DetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LotPanel.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="States\DisableState.cs" />
+    <Compile Include="States\State.cs" />
+    <Compile Include="States\WorkState.cs" />
+    <EmbeddedResource Include="BidForm.resx">
+      <DependentUpon>BidForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailForm.resx">
+      <DependentUpon>DetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en-001.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="AuctionDataSet.xsc">
+      <DependentUpon>AuctionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AuctionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AuctionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AuctionDataSet.xss">
+      <DependentUpon>AuctionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +143,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-348-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-348-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes_closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auction.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,12 +6,12 @@ namespace AuctionProgram.Classes.Products
 {
     public abstract class Product : Panel
     {
-        private int id;
-        private DateTime expTime;
-        private Bidder lastBidder;
-        private int lastBid;
-        private List<IObserver> observers;
-        private bool isTracking = false;
+        protected int id;
+        protected DateTime expTime;
+        protected Bidder lastBidder;
+        protected int lastBid;
+        protected List<IObserver> observers;
+        protected bool isTracking = false;
 
         //GUI
         public Button buyButton;

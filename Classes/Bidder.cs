@@ -10,7 +10,6 @@ namespace AuctionProgram.Classes
         private int id;
         private string name;
         private string email;
-        public List<Lot> trackedLots;
 
         public int Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
